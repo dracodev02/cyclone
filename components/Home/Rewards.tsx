@@ -2,7 +2,7 @@ import ImageComp from "@/package/@ui-kit/Image/ImageComp";
 import decor1 from "@/public/assets/decor1.png";
 import decor2 from "@/public/assets/decor2.png";
 
-const RewardsAndModel = () => {
+const Rewards = () => {
   return (
     <div className="mt-10 relative">
       <div className="absolute w-screen h-full z-[-1]">
@@ -31,4 +31,4 @@ const RewardsAndModel = () => {
   );
 };
 
-export default RewardsAndModel;
+export default Rewards;

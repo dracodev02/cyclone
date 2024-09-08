@@ -2,7 +2,7 @@
 import { useInView } from "react-intersection-observer";
 import KeyFeatures from "@/components/Home/KeyFeatures";
 import Operational from "@/components/Home/Operational";
-import RewardsAndModel from "@/components/Home/RewardsAndModel";
+import Rewards from "@/components/Home/Rewards";
 import WhyDifferent from "@/components/Home/WhyDifferent";
 import WhyUs from "@/components/Home/WhyUs";
 import Model from "@/components/Home/Model";
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div>
       <SectionWrapper>
-        <RewardsAndModel />
+        <Rewards />
       </SectionWrapper>
       <SectionWrapper>
         <Model />
