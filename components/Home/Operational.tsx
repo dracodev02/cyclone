@@ -18,30 +18,30 @@ const Operational = () => {
           <div className="flex gap-4 flex-wrap">
             <div className="px-8 py-6 border border-primary bg-primary/35 rounded-lg flex-1">
               <p className="capitalize text-2xl max-md:text-base font-bold">
-                Withdraw anytime
+                Mixing process
               </p>
-              <p className="mt-2">{`Don’t want to participate anymore? You can withdraw your assets at any time without penalties.`}</p>
+              <p className="mt-2">{`The protocol blends your funds with others, making them indistinguishable.`}</p>
             </div>
             <div className="px-8 py-6 border border-primary bg-primary/35 rounded-lg basis-full md:basis-[286px]">
               <p className="capitalize text-2xl max-md:text-base font-bold">
-                Withdraw anytime
+                Deposit
               </p>
-              <p className="mt-2">{`Select a pool and stake your tokens to receive lottery tickets.`}</p>
+              <p className="mt-2">{`Users deposit funds into Cyclone's mixing pool.`}</p>
             </div>
           </div>
           <div className="flex gap-4 flex-wrap">
             <div className="px-8 py-6 border border-primary bg-primary/35 rounded-lg flex-1">
               <p className="capitalize text-2xl max-md:text-base font-bold">
-                Withdraw anytime
+                Withdraw
               </p>
-              <p className="mt-2">{`Don’t want to participate anymore? You can withdraw your assets at any time without penalties.`}</p>
+              <p className="mt-2">{`Users can withdraw funds anonymously with no trace of the original transaction.`}</p>
             </div>
-            <div className="px-8 py-6 border border-primary bg-primary/35 rounded-lg basis-full md:basis-[387px]">
+            {/* <div className="px-8 py-6 border border-primary bg-primary/35 rounded-lg basis-full md:basis-[387px]">
               <p className="capitalize text-2xl max-md:text-base font-bold">
                 Withdraw anytime
               </p>
               <p className="mt-2">{`Select a pool and stake your tokens to receive lottery tickets.`}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

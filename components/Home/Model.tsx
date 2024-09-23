@@ -7,17 +7,10 @@ const Model = () => {
         </p>
         <div className="max-w-[990px] mt-[52px]">
           <p className="text-[32px] capitalize max-md:text-2xl">
-            Pioneering innovation
+            What is Cyclone?
           </p>
-          <p className="text-2xl max-md:text-base mt-6">
-            MagikPool is a groundbreaking crypto project that redefines the
-            staking experience. Instead of receiving fixed interest rates, users
-            can stake their tokens in our pools to earn lottery tickets.
-            <br />
-            <br />
-            The longer and more you stake, the better your chances of winning
-            valuable rewards in our periodic prize draw. Plus, you can withdraw
-            your assets anytime — no strings attached.
+          <p className="text-2xl max-md:text-base mt-6 font-normal">
+            {`Cyclone is a powerful coin mixer protocol built on Starknet, designed to enhance privacy and security by making your transactions anonymous and difficult to trace. Our protocol mixes your cash flows with others' on-chain, obscuring the origin and destination of your funds, ensuring ultimate privacy.`}
           </p>
         </div>
       </div>

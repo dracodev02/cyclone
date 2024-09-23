@@ -1,16 +1,18 @@
 "use client";
 import { useInView } from "react-intersection-observer";
-import KeyFeatures from "@/components/Home/KeyFeatures";
+// import KeyFeatures from "@/components/Home/KeyFeatures";
 import Operational from "@/components/Home/Operational";
 import Rewards from "@/components/Home/Rewards";
 import WhyDifferent from "@/components/Home/WhyDifferent";
 import WhyUs from "@/components/Home/WhyUs";
 import Model from "@/components/Home/Model";
+import PrivacyMatters from "@/components/Home/PrivacyMatters";
+import Involved from "@/components/Home/Involved";
 
 function SectionWrapper({ children }: { children: React.ReactNode }) {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Hiện chỉ một lần khi người dùng scroll tới
-    threshold: 0.2, // Phần trăm của phần tử cần xuất hiện trước khi kích hoạt
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
   return (
@@ -41,10 +43,16 @@ export default function Home() {
         <WhyUs />
       </SectionWrapper>
       <SectionWrapper>
-        <KeyFeatures />
+        <PrivacyMatters />
       </SectionWrapper>
+      {/* <SectionWrapper>
+        <KeyFeatures />
+      </SectionWrapper> */}
       <SectionWrapper>
         <WhyDifferent />
+      </SectionWrapper>
+      <SectionWrapper>
+        <Involved />
       </SectionWrapper>
     </div>
   );

@@ -16,14 +16,13 @@ const Rewards = () => {
         />
       </div>
       <div className="max-w-desktop px-4 mx-auto">
-        <div className="max-w-[690px] md:h-screen">
-          <p className="capitalize text-[64px] max-md:text-[36px] max-w-[545px] font-oswald">
-            revolutionizing staking with{" "}
-            <span className="text-[#E0228C]">lottery rewards</span>
+        <div className="max-w-[690px] md:h-screen font-normal">
+          <p className="capitalize text-[64px] max-md:text-[36px] max-w-[706px] font-oswald text-[#E0228C] leading-[64px] max-md:leading-[36px]">
+            Secure, private transactions <br />
+            <span className="text-white">on Starknet</span>
           </p>
-          <p className="text-2xl max-md:text-base">
-            Stake your tokens, earn lottery tickets, and stand a chance to win
-            valuable prizes—staking has never been this exciting
+          <p className="text-2xl max-md:text-base mt-6">
+            {`Keep your transactions private and untraceable with Cyclone's advanced coin-mixing protocol.`}
           </p>
         </div>
       </div>

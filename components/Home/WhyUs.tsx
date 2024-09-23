@@ -8,15 +8,15 @@ const WhyUs = () => {
         <div className="flex gap-4 flex-wrap">
           <div className="px-8 py-6 border border-darkPrimary bg-darkPrimary/35 rounded-lg flex-1">
             <p className="capitalize text-2xl max-md:text-base font-bold">
-              Increased Rewards
+              on-chain privacy
             </p>
-            <p className="mt-2">{`The more you stake and the longer you stay, the higher your reward potential.`}</p>
+            <p className="mt-2">{`Transactions become difficult to trace, protecting your financial data.`}</p>
           </div>
           <div className="px-8 py-6 border border-darkPrimary bg-darkPrimary/35 rounded-lg basis-full md:basis-[487px]">
             <p className="capitalize text-2xl max-md:text-base font-bold">
-              Exciting Lottery Rewards
+              Fast & secure
             </p>
-            <p className="mt-2">{`Win valuable gifts instead of earning fixed interest rates.`}</p>
+            <p className="mt-2">{`Cyclone ensures swift transactions while keeping your identity protected.`}</p>
           </div>
         </div>
         <div className="flex gap-4 flex-wrap">
@@ -24,13 +24,13 @@ const WhyUs = () => {
             <p className="capitalize text-2xl max-md:text-base font-bold">
               Built on StarkNet
             </p>
-            <p className="mt-2">{`Built on Starknet technology for transparency and security.`}</p>
+            <p className="mt-2">{`Benefit from Starknet’s scalability and low fees while staying anonymous.`}</p>
           </div>
           <div className="px-8 py-6 border border-darkPrimary bg-darkPrimary/35 rounded-lg flex-1">
             <p className="capitalize text-2xl max-md:text-base font-bold">
-              Flexible staking
+              Easy to use
             </p>
-            <p className="mt-2">{`No lock-up periods. Stake, earn, and withdraw whenever you want.`}</p>
+            <p className="mt-2">{`Simple, user-friendly interface to protect your privacy with just a few clicks.`}</p>
           </div>
         </div>
       </div>
